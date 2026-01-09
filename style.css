@@ -99,6 +99,18 @@
   height: 300px;
 }
 
+.early {
+  text-align: center;
+  padding: 60px;
+}
+
+.early button:hover {
+  background:green;
+  color: white;
+}
+
+
+
 
 
 
