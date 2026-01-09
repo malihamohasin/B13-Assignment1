@@ -1,4 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
-body{
-    background-color: brown;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: white;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  border: none;
+  background: green;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background: gray;
 }
