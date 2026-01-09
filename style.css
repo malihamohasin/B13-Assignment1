@@ -84,3 +84,15 @@
   background: #f3eeee;
 }
 
+.brain {
+  display: flex;
+  gap: 40px;
+  padding: 60px;
+}
+
+.brain img {
+  width: 40%;
+}
+
+
+
