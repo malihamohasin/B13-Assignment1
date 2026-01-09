@@ -36,3 +36,26 @@
 .nav-btn:hover {
   background: gray;
 }
+
+
+.banner {
+  height: 400px;
+  background: url("./images/hero-bg.png") no-repeat center;
+  color:white;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.banner-btns button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.banner-btns button:hover {
+  transform: scale(1.05);
+}
+
